@@ -901,7 +901,7 @@
                         "override": true,
                         "__scriptTabs": "press",
                         "__label": "Press Up",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1242,7 +1242,7 @@
                         "override": true,
                         "__scriptTabs": "press",
                         "__label": "Press A",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -1255,7 +1255,60 @@
                                     "__collapseElse": true
                                 },
                                 "children": {
-                                    "true": [],
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_VALUE_COMPARE",
+                                            "args": {
+                                                "vectorX": "2",
+                                                "operator": "==",
+                                                "vectorY": "6",
+                                                "__collapseElse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE_COMPARE",
+                                                        "args": {
+                                                            "vectorX": "3",
+                                                            "operator": "==",
+                                                            "vectorY": "7",
+                                                            "__collapseElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE_COMPARE",
+                                                                    "args": {
+                                                                        "vectorX": "4",
+                                                                        "operator": "==",
+                                                                        "vectorY": "8",
+                                                                        "__collapseElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "6260d68a-1cb3-490b-8f16-22db65269034"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "2a1b3dad-ff09-4472-b5a8-59c564431b42"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_DEC_VALUE",
+                                                        "args": {
+                                                            "variable": "1"
+                                                        },
+                                                        "id": "6799fce4-0cde-4973-993d-4de961d3c177"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "5e1c009c-7d83-4736-a386-d7aab592f9a2"
+                                        }
+                                    ],
                                     "false": []
                                 },
                                 "id": "62c63ef0-5c14-49f3-b40f-0c6f265d980c"
@@ -1263,6 +1316,33 @@
                         ]
                     },
                     "id": "21e38c3e-1940-425d-b0a4-4cc40a05f01e"
+                },
+                {
+                    "command": "EVENT_IF_VALUE",
+                    "args": {
+                        "variable": "1",
+                        "operator": "<=",
+                        "comparator": "0",
+                        "__collapseElse": true,
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_SWITCH_SCENE",
+                                "args": {
+                                    "sceneId": "85e56345-a7f8-4e86-bafc-7cff7e7df8bb",
+                                    "x": 0,
+                                    "y": 0,
+                                    "direction": "",
+                                    "fadeSpeed": "2"
+                                },
+                                "id": "3acb0962-30e4-4412-9dad-b4b7ddd46601"
+                            }
+                        ],
+                        "false": []
+                    },
+                    "id": "1cf219c1-9d9a-4a55-99cf-52bb052dc8ba"
                 }
             ],
             "playerHit1Script": [],
@@ -2557,6 +2637,21 @@
             "id": "0",
             "name": "Player Max HP",
             "symbol": "var_player_max_hp"
+        },
+        {
+            "id": "6",
+            "name": "Enemy Bullet 1",
+            "symbol": "var_enemy_bullet_1"
+        },
+        {
+            "id": "7",
+            "name": "Enemy Bullet 2",
+            "symbol": "var_enemy_bullet_2"
+        },
+        {
+            "id": "8",
+            "name": "Enemy Bullet 3",
+            "symbol": "var_enemy_bullet_3"
         }
     ],
     "engineFieldValues": [
@@ -2576,8 +2671,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2265.333251953125,
-        "worldScrollY": 1432.6666259765625,
+        "worldScrollX": 2263.333251953125,
+        "worldScrollY": 1488,
         "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
