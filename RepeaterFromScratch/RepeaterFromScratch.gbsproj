@@ -16,8 +16,8 @@
             "autoFadeSpeed": 1,
             "id": "85e56345-a7f8-4e86-bafc-7cff7e7df8bb",
             "symbol": "scene_1",
-            "x": 277.68480302402986,
-            "y": 200.3034985135733,
+            "x": 278.68480302402986,
+            "y": 195.3034985135733,
             "actors": [],
             "triggers": [],
             "script": [
@@ -119,6 +119,28 @@
                     "id": "1c9d2c75-898c-4230-9de9-fd8c33a1f5b5"
                 },
                 {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "1",
+                        "value": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    "id": "3d5872cc-ddf2-45c0-aed4-ee562672228f"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "0",
+                        "value": {
+                            "type": "number",
+                            "value": 5
+                        }
+                    },
+                    "id": "f6e4c416-51b7-463a-8b86-5f77550cf943"
+                },
+                {
                     "id": "a0106fd4-f6ad-48a4-84ac-c83e6fa056b4",
                     "command": "EVENT_LOOP",
                     "args": {},
@@ -148,8 +170,8 @@
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
                                                 "sceneId": "bcf43fbd-d77d-441f-a86c-d783318ffd70",
-                                                "x": 4,
-                                                "y": 13,
+                                                "x": 3,
+                                                "y": 12,
                                                 "direction": "right",
                                                 "fadeSpeed": "4"
                                             }
@@ -199,336 +221,1054 @@
             "backgroundId": "c35eecf6-d201-4b92-baad-2e082f6a27c0",
             "width": 20,
             "height": 18,
-            "type": "POINTNCLICK",
+            "type": "TOPDOWN",
             "paletteIds": [
                 "default-ui",
                 "default-bg-2",
                 "default-bg-3"
             ],
             "spritePaletteIds": [],
-            "collisions": [],
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
             "autoFadeSpeed": 1,
             "id": "bcf43fbd-d77d-441f-a86c-d783318ffd70",
             "symbol": "scene_3",
             "x": 647.6445988474115,
-            "y": 393.77388260961095,
+            "y": 393.52388260961095,
             "actors": [],
-            "triggers": [
+            "triggers": [],
+            "script": [
                 {
-                    "name": "Bullet 2 Up",
-                    "id": "a8fb677a-886e-45ac-a550-7d6448e92e76",
-                    "x": 7,
-                    "y": 10,
-                    "symbol": "trigger_0",
-                    "width": 3,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "3",
-                                "operator": "==",
-                                "comparator": 2,
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_VALUE",
-                                        "args": {
-                                            "variable": "3",
-                                            "value": {
-                                                "type": "number",
-                                                "value": 0
-                                            }
-                                        },
-                                        "id": "c7f762d0-1f21-42ba-9a85-7ea109f82454"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_INC_VALUE",
-                                        "args": {
-                                            "variable": "3"
-                                        },
-                                        "id": "426e1252-dc0c-4d90-823d-9da7eaee87f5"
-                                    }
-                                ]
-                            },
-                            "id": "164cecee-c354-414c-83d8-ed9e4e01c61f"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Bullet 2 Down",
-                    "id": "f45be6ba-18a3-4db1-a8aa-9ecfd7781dd1",
-                    "x": 7,
-                    "y": 15,
-                    "symbol": "trigger_1",
-                    "width": 3,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "3",
-                                "operator": "==",
-                                "comparator": 0,
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_VALUE",
-                                        "args": {
-                                            "variable": "3",
-                                            "value": {
-                                                "type": "number",
-                                                "value": 2
-                                            }
-                                        },
-                                        "id": "a5a9b090-8f4c-4709-99c4-2bc63d1b92a3"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_DEC_VALUE",
-                                        "args": {
-                                            "variable": "3"
-                                        },
-                                        "id": "73d165df-4599-4d2f-a25a-2d8965b26f45"
-                                    }
-                                ]
-                            },
-                            "id": "64cdc64f-db27-4a75-9b7c-36bad352dae1"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Bullet 1 Down",
-                    "id": "bdbb5926-a3ed-40b9-b6e5-b3d7c320c298",
-                    "x": 11,
-                    "y": 15,
-                    "symbol": "trigger_2",
-                    "width": 3,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "2",
-                                "operator": "==",
-                                "comparator": 0,
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_VALUE",
-                                        "args": {
-                                            "variable": "2",
-                                            "value": {
-                                                "type": "number",
-                                                "value": 2
-                                            }
-                                        },
-                                        "id": "aae3907f-1a76-4d87-aa9f-60c73e7477b9"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_DEC_VALUE",
-                                        "args": {
-                                            "variable": "2"
-                                        },
-                                        "id": "93fd69da-5de8-4d0a-97b8-1f0ab3bb90a7"
-                                    }
-                                ]
-                            },
-                            "id": "56e0b529-783a-444a-993b-9484f0908f18"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Bullet 1 Up",
-                    "id": "83b1f56f-4ad9-4a45-bd6b-ba30cf4ab0ba",
-                    "x": 11,
-                    "y": 10,
-                    "symbol": "trigger_3",
-                    "width": 3,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "2",
-                                "operator": "==",
-                                "comparator": 2,
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_VALUE",
-                                        "args": {
-                                            "variable": "2",
-                                            "value": {
-                                                "type": "number",
-                                                "value": 0
-                                            }
-                                        },
-                                        "id": "1c311802-01d6-4509-be9e-deccab4f40ff"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_INC_VALUE",
-                                        "args": {
-                                            "variable": "2"
-                                        },
-                                        "id": "106986b8-70b9-4ccd-a539-c757767637aa"
-                                    }
-                                ]
-                            },
-                            "id": "39e8619b-beca-4c9f-93c6-120b097b8742"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Bullet 3 Up",
-                    "id": "25ae14ca-50dc-421d-9881-2f635f86ff95",
-                    "x": 3,
-                    "y": 10,
-                    "symbol": "trigger_4",
-                    "width": 3,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "4",
-                                "operator": "==",
-                                "comparator": 2,
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_VALUE",
-                                        "args": {
-                                            "variable": "4",
-                                            "value": {
-                                                "type": "number",
-                                                "value": 0
-                                            }
-                                        },
-                                        "id": "4228feaf-b847-4b57-a731-0f2f6a1e4e25"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_INC_VALUE",
-                                        "args": {
-                                            "variable": "4"
-                                        },
-                                        "id": "83d514af-74b5-485e-94fd-f15ad9e7b26e"
-                                    }
-                                ]
-                            },
-                            "id": "b0b84f0d-c4b2-453a-8d4d-8604e4b974fc"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Bullet 3 Down",
-                    "id": "0e67cf76-c0c7-4c86-8f66-8b010513483c",
-                    "x": 3,
-                    "y": 15,
-                    "symbol": "trigger_5",
-                    "width": 3,
-                    "height": 1,
-                    "script": [
-                        {
-                            "command": "EVENT_IF_VALUE",
-                            "args": {
-                                "variable": "4",
-                                "operator": "==",
-                                "comparator": 0,
-                                "__collapseElse": false
-                            },
-                            "children": {
-                                "true": [
-                                    {
-                                        "command": "EVENT_SET_VALUE",
-                                        "args": {
-                                            "variable": "4",
-                                            "value": {
-                                                "type": "number",
-                                                "value": 2
-                                            }
-                                        },
-                                        "id": "1a36bb35-7adf-45ee-b5a8-7e357b80ffb2"
-                                    }
-                                ],
-                                "false": [
-                                    {
-                                        "command": "EVENT_DEC_VALUE",
-                                        "args": {
-                                            "variable": "4"
-                                        },
-                                        "id": "ef4baf3b-11bb-4416-b557-5578f479a5de"
-                                    }
-                                ]
-                            },
-                            "id": "76e31e83-6789-4d3f-be34-cd86904ee054"
-                        }
-                    ],
-                    "leaveScript": []
-                },
-                {
-                    "name": "Shoot",
-                    "id": "552c0b0b-258a-4d10-8067-83ce9b0eec51",
-                    "x": 15,
-                    "y": 15,
-                    "symbol": "trigger_6",
-                    "width": 5,
-                    "height": 3,
-                    "script": [
-                        {
-                            "command": "EVENT_SOUND_PLAY_EFFECT",
-                            "args": {
-                                "type": "68008d65-f69b-42b5-af11-4fb33e818707",
-                                "priority": "medium",
-                                "pitch": 4,
-                                "frequency": 200,
-                                "duration": 0.5,
-                                "wait": true,
-                                "effect": 0
-                            },
-                            "id": "694860df-3049-4e03-97b8-b70bdf959415"
-                        }
-                    ],
-                    "leaveScript": []
-                }
-            ],
-            "script": [],
-            "playerHit1Script": [
-                {
-                    "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                    "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
-                        "variable": "L0",
-                        "expression": ""
+                        "input": [
+                            "left"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": true,
+                        "__label": "Press Left"
                     },
-                    "id": "604610aa-efe5-4c20-9fbc-d0b7c7ab40c6"
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": 3,
+                                    "y": 12,
+                                    "__collapseElse": false,
+                                    "units": "tiles",
+                                    "__label": "If Player on Bullet 1",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": {
+                                                    "type": "number",
+                                                    "value": 15
+                                                },
+                                                "y": {
+                                                    "type": "number",
+                                                    "value": 12
+                                                }
+                                            },
+                                            "id": "b4e1e50d-85b0-4d51-b340-dcdb5bf46fb8"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": 7,
+                                                "y": 12,
+                                                "__collapseElse": false,
+                                                "__label": "If Player on Bullet 2",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": {
+                                                                "type": "number",
+                                                                "value": 3
+                                                            },
+                                                            "y": {
+                                                                "type": "number",
+                                                                "value": 12
+                                                            }
+                                                        },
+                                                        "id": "71ab0f24-77ad-480e-9806-e032e7d7f95b"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 11,
+                                                            "y": 12,
+                                                            "__collapseElse": false,
+                                                            "__label": "If Player on Bullet 3"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_ACTOR_SET_POSITION",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": {
+                                                                            "type": "number",
+                                                                            "value": 7
+                                                                        },
+                                                                        "y": {
+                                                                            "type": "number",
+                                                                            "value": 12
+                                                                        }
+                                                                    },
+                                                                    "id": "f6732ef1-4f34-493e-abbc-4953a77996a6"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": 15,
+                                                                        "y": 12,
+                                                                        "__collapseElse": true,
+                                                                        "__label": "If Player on Shoot Button"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                                "args": {
+                                                                                    "actorId": "$self$",
+                                                                                    "x": {
+                                                                                        "type": "number",
+                                                                                        "value": 11
+                                                                                    },
+                                                                                    "y": {
+                                                                                        "type": "number",
+                                                                                        "value": 12
+                                                                                    }
+                                                                                },
+                                                                                "id": "66e92312-285e-47a1-a1ec-c9f533e24d7a"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "2fbc1344-df39-4ec3-9e9d-c37ea56d2131"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "ff7232e3-5285-469d-9c26-061be2a25d1e"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "dd74ea63-8e72-4a71-ad36-d371310ecd4e"
+                                        }
+                                    ]
+                                },
+                                "id": "481b67f1-16e2-4ddd-8882-fe17cb5c8c29"
+                            }
+                        ]
+                    },
+                    "id": "965284db-bfec-406d-a07d-e64811498c97"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__label": "Press Right",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": 3,
+                                    "y": 12,
+                                    "__collapseElse": false,
+                                    "units": "tiles",
+                                    "__label": "If Player on Bullet 1",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_ACTOR_SET_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": {
+                                                    "type": "number",
+                                                    "value": 7
+                                                },
+                                                "y": {
+                                                    "type": "number",
+                                                    "value": 12
+                                                }
+                                            },
+                                            "id": "9d377c7f-3874-4fe0-9aa6-a74b4b246fed"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": 7,
+                                                "y": 12,
+                                                "__collapseElse": false,
+                                                "__label": "If Player on Bullet 2",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_ACTOR_SET_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": {
+                                                                "type": "number",
+                                                                "value": 11
+                                                            },
+                                                            "y": {
+                                                                "type": "number",
+                                                                "value": 12
+                                                            }
+                                                        },
+                                                        "id": "a9153a4e-997e-4974-8ff8-1a487a44b39e"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 11,
+                                                            "y": 12,
+                                                            "__collapseElse": false,
+                                                            "__label": "If Player on Bullet 3"
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_ACTOR_SET_POSITION",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": {
+                                                                            "type": "number",
+                                                                            "value": 15
+                                                                        },
+                                                                        "y": {
+                                                                            "type": "number",
+                                                                            "value": 12
+                                                                        }
+                                                                    },
+                                                                    "id": "efb2dbea-9713-48da-9c2f-05c368732537"
+                                                                }
+                                                            ],
+                                                            "false": [
+                                                                {
+                                                                    "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                                    "args": {
+                                                                        "actorId": "$self$",
+                                                                        "x": 15,
+                                                                        "y": 12,
+                                                                        "__collapseElse": false,
+                                                                        "__label": "If Player on Shoot Button"
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                                                "args": {
+                                                                                    "actorId": "$self$",
+                                                                                    "x": {
+                                                                                        "type": "number",
+                                                                                        "value": 3
+                                                                                    },
+                                                                                    "y": {
+                                                                                        "type": "number",
+                                                                                        "value": 12
+                                                                                    }
+                                                                                },
+                                                                                "id": "2b667806-44c8-4942-a83c-0b9671173c62"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "f5ab4576-f0c1-4034-9105-119395e95ecf"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "id": "acf8de52-b36e-41fb-8504-656f5edac3be"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "28e152df-2648-4242-bc59-c65ff2a6adf5"
+                                        }
+                                    ]
+                                },
+                                "id": "ca627346-9683-4b49-9c0b-e46ad02c751b"
+                            }
+                        ]
+                    },
+                    "id": "3d7fac08-6372-4a9b-b5e4-c48beef52957"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "up"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__label": "Press Up",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": 3,
+                                    "y": 12,
+                                    "__collapseElse": false,
+                                    "units": "tiles",
+                                    "__label": "If Player on Bullet 1",
+                                    "__collapse": false
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "2",
+                                                "operator": "==",
+                                                "comparator": 2,
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_SET_VALUE",
+                                                        "args": {
+                                                            "variable": "2",
+                                                            "value": {
+                                                                "type": "number",
+                                                                "value": 0
+                                                            }
+                                                        },
+                                                        "id": "1de7f654-9eca-4e44-8a82-4884e06907e7"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "dba31c3e-c9f0-4482-bd63-542eacf820c4"
+                                        },
+                                        {
+                                            "command": "EVENT_DEC_VALUE",
+                                            "args": {
+                                                "variable": "2"
+                                            },
+                                            "id": "b7af89f2-0908-402f-bf7c-93093f686baa"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": 7,
+                                                "y": 12,
+                                                "__collapseElse": false,
+                                                "__label": "If Player on Bullet 2",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "3",
+                                                            "operator": "==",
+                                                            "comparator": "0",
+                                                            "__collapseElse": true,
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_SET_VALUE",
+                                                                    "args": {
+                                                                        "variable": "3",
+                                                                        "value": {
+                                                                            "type": "number",
+                                                                            "value": 2
+                                                                        }
+                                                                    },
+                                                                    "id": "e8e48bc1-e9e5-482b-adc3-b781ad00aeb0"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "559dd611-0c59-4ae8-b881-d50be9050c06"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_INC_VALUE",
+                                                        "args": {
+                                                            "variable": "3"
+                                                        },
+                                                        "id": "104305c4-ff11-4ca4-b5f0-b72686ec7830"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 11,
+                                                            "y": 12,
+                                                            "__collapseElse": true,
+                                                            "__label": "If Player on Bullet 3",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "operator": "==",
+                                                                        "comparator": "0",
+                                                                        "__collapseElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_SET_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "L3",
+                                                                                    "value": {
+                                                                                        "type": "number",
+                                                                                        "value": 2
+                                                                                    }
+                                                                                },
+                                                                                "id": "8fbfab5c-ba08-4289-9253-25c69a698450"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "5fffaeb5-fe8f-484a-8180-594b26dd8d04"
+                                                                },
+                                                                {
+                                                                    "command": "EVENT_INC_VALUE",
+                                                                    "args": {
+                                                                        "variable": "4"
+                                                                    },
+                                                                    "id": "2bb9d4e4-7e3b-4830-866e-4771c0f06075"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "65490a70-832d-4480-944d-a448e62a0207"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "357089e5-64a4-4d3a-b9be-c1d138cf1b14"
+                                        }
+                                    ]
+                                },
+                                "id": "7c0a8d26-3e11-4954-bb35-443cd7007a83"
+                            }
+                        ]
+                    },
+                    "id": "8cde0fee-4eb1-43b6-8b58-d81be1be1e18"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "down"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__label": "Press Down",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": 3,
+                                    "y": 12,
+                                    "__collapseElse": false,
+                                    "units": "tiles",
+                                    "__label": "If Player on Bullet 1",
+                                    "__collapse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_IF_VALUE",
+                                            "args": {
+                                                "variable": "2",
+                                                "operator": "==",
+                                                "comparator": "0",
+                                                "__collapseElse": true
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_SET_VALUE",
+                                                        "args": {
+                                                            "variable": "2",
+                                                            "value": {
+                                                                "type": "number",
+                                                                "value": 2
+                                                            }
+                                                        },
+                                                        "id": "514ef63a-56da-4400-a9c8-8f7a457db5d5"
+                                                    }
+                                                ],
+                                                "false": []
+                                            },
+                                            "id": "e8a156e1-498b-4f31-a0ac-1e9144515e08"
+                                        },
+                                        {
+                                            "command": "EVENT_DEC_VALUE",
+                                            "args": {
+                                                "variable": "2"
+                                            },
+                                            "id": "b048b399-1d4e-4566-8085-01c05e80c9c8"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                            "args": {
+                                                "actorId": "$self$",
+                                                "x": 7,
+                                                "y": 12,
+                                                "__collapseElse": false,
+                                                "__label": "If Player on Bullet 2",
+                                                "__collapse": false
+                                            },
+                                            "children": {
+                                                "true": [
+                                                    {
+                                                        "command": "EVENT_IF_VALUE",
+                                                        "args": {
+                                                            "variable": "3",
+                                                            "operator": "==",
+                                                            "comparator": "0",
+                                                            "__collapseElse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_SET_VALUE",
+                                                                    "args": {
+                                                                        "variable": "3",
+                                                                        "value": {
+                                                                            "type": "number",
+                                                                            "value": 2
+                                                                        }
+                                                                    },
+                                                                    "id": "bb81f7a2-d527-4307-b4ee-580b0bce408a"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "4a0a8bad-9df6-4db2-a988-58d054add1de"
+                                                    },
+                                                    {
+                                                        "command": "EVENT_DEC_VALUE",
+                                                        "args": {
+                                                            "variable": "3"
+                                                        },
+                                                        "id": "e3fb2358-a9d0-4e84-a099-2c57c93d4a53"
+                                                    }
+                                                ],
+                                                "false": [
+                                                    {
+                                                        "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                                        "args": {
+                                                            "actorId": "$self$",
+                                                            "x": 11,
+                                                            "y": 12,
+                                                            "__collapseElse": true,
+                                                            "__label": "If Player on Bullet 3",
+                                                            "__collapse": true
+                                                        },
+                                                        "children": {
+                                                            "true": [
+                                                                {
+                                                                    "command": "EVENT_IF_VALUE",
+                                                                    "args": {
+                                                                        "variable": "4",
+                                                                        "operator": "==",
+                                                                        "comparator": "0",
+                                                                        "__collapseElse": true
+                                                                    },
+                                                                    "children": {
+                                                                        "true": [
+                                                                            {
+                                                                                "command": "EVENT_SET_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "4",
+                                                                                    "value": {
+                                                                                        "type": "number",
+                                                                                        "value": 2
+                                                                                    }
+                                                                                },
+                                                                                "id": "ff73cab6-6d57-47eb-8834-0990a1b11eb8"
+                                                                            },
+                                                                            {
+                                                                                "command": "EVENT_DEC_VALUE",
+                                                                                "args": {
+                                                                                    "variable": "L3"
+                                                                                },
+                                                                                "id": "51df037d-d2b8-4f06-8134-b0f1142b39ca"
+                                                                            }
+                                                                        ],
+                                                                        "false": []
+                                                                    },
+                                                                    "id": "b478109e-0517-4fc8-b875-61dbbc2add32"
+                                                                }
+                                                            ],
+                                                            "false": []
+                                                        },
+                                                        "id": "f140302c-b6ce-4b88-aefe-c11647aa6807"
+                                                    }
+                                                ]
+                                            },
+                                            "id": "79a0585b-9126-403f-9864-4891ad701f35"
+                                        }
+                                    ]
+                                },
+                                "id": "ba9fa6b9-9a06-4d73-b283-440107bdb6d2"
+                            }
+                        ]
+                    },
+                    "id": "2e519d9d-531a-4b54-aaea-cdb1648d3184"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "a"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__label": "Press A",
+                        "__collapse": false
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_IF_ACTOR_AT_POSITION",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "x": 15,
+                                    "y": 12,
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [],
+                                    "false": []
+                                },
+                                "id": "62c63ef0-5c14-49f3-b40f-0c6f265d980c"
+                            }
+                        ]
+                    },
+                    "id": "21e38c3e-1940-425d-b0a4-4cc40a05f01e"
                 }
             ],
+            "playerHit1Script": [],
             "playerHit2Script": [],
-            "playerHit3Script": []
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "5a401f89-3092-4d9e-b744-5fa65976ecc8"
         },
         {
             "name": "Lose Screen",
@@ -582,7 +1322,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "Repeater_rifle_mockup.png"
+            "filename": "Repeater_rifle_mockup.png",
+            "tileColors": []
         },
         {
             "id": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
@@ -598,6 +1339,264 @@
     ],
     "spriteSheets": [
         {
+            "id": "5a401f89-3092-4d9e-b744-5fa65976ecc8",
+            "name": "MC_selector",
+            "symbol": "sprite_mc_selector",
+            "numFrames": 2,
+            "type": "animated",
+            "filename": "MC_selector.png",
+            "checksum": "5ba979c53f65b65cbe4e3d270f31db9310543d37",
+            "width": 32,
+            "height": 40,
+            "states": [
+                {
+                    "id": "52bda60a-b02f-4707-8fdb-ab535478624a",
+                    "name": "",
+                    "animationType": "fixed",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "55cddeb2-f7e6-4751-8848-8afb45ef225f",
+                            "frames": [
+                                {
+                                    "id": "69d7cb67-e9c5-4002-9167-0b5464e1e41a",
+                                    "tiles": [
+                                        {
+                                            "id": "49aeefec-dc9b-4ce8-90e8-c91445012d4c",
+                                            "x": -8,
+                                            "y": 24,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "7573ef50-e51a-4ca8-8535-74907910c463",
+                                            "x": -8,
+                                            "y": 8,
+                                            "sliceX": 0,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "276b401c-36cf-4461-a2e5-fff77f008b7f",
+                                            "x": -8,
+                                            "y": -8,
+                                            "sliceX": 0,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "3bb24fcc-57c8-4acb-be77-d8487a93bab3",
+                                            "x": 0,
+                                            "y": 24,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "8344df2b-02a0-4b72-b0b3-56725e68bed4",
+                                            "x": 0,
+                                            "y": 8,
+                                            "sliceX": 8,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "a2ce2c04-58fa-4be0-87f5-8bcd1381f7cb",
+                                            "x": 0,
+                                            "y": -8,
+                                            "sliceX": 8,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "193a599e-7e9d-4991-8c1f-872499ece5f6",
+                                            "x": 8,
+                                            "y": 24,
+                                            "sliceX": 16,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "0d2abd2b-86c2-49ab-bf1a-7a5d26eab88d",
+                                            "x": 8,
+                                            "y": 8,
+                                            "sliceX": 16,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "8c280abc-f1eb-4a40-8a04-52c38ce021db",
+                                            "x": 8,
+                                            "y": -8,
+                                            "sliceX": 16,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "9d5cb1ea-9810-4eb5-8c3e-e49684bd9368",
+                                            "x": 16,
+                                            "y": 24,
+                                            "sliceX": 24,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "2b7355a1-4b45-45a9-957d-17b5b8b1f156",
+                                            "x": 16,
+                                            "y": 8,
+                                            "sliceX": 24,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "126c1c5c-3df0-4521-8462-17e513abf90c",
+                                            "x": 16,
+                                            "y": -8,
+                                            "sliceX": 24,
+                                            "sliceY": 32,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP1",
+                                            "paletteIndex": 3,
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "01c51448-bcdd-4b85-b4ae-a74650adb538",
+                            "frames": [
+                                {
+                                    "id": "281526e1-1ca0-474f-8e6e-c3b001b72e69",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "7fcd8040-d3f4-422c-a901-a6f24eb87542",
+                            "frames": [
+                                {
+                                    "id": "3fa33924-8ef6-4f2b-9360-3db9dc97c9c7",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "0e40dccf-8d61-4596-baa4-f63d12d3ec81",
+                            "frames": [
+                                {
+                                    "id": "bd34c5f4-ab9d-4b66-ad35-86fa4c5bfe46",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "42b1371b-b866-4a96-b098-0f319136385d",
+                            "frames": [
+                                {
+                                    "id": "84ddb767-cc73-4034-a156-7e0fe561c063",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "d31ec1fc-ac67-422f-bd18-9fe31a474cbf",
+                            "frames": [
+                                {
+                                    "id": "41e4cc0c-1138-40eb-bf69-293683944319",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "89841d98-83bf-4964-956f-9c43d9e625bf",
+                            "frames": [
+                                {
+                                    "id": "25a7cd4c-3d20-4a30-b1a6-26efff745776",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "45bb7c18-a4c1-4fd5-aa5a-c6a46b362100",
+                            "frames": [
+                                {
+                                    "id": "62097dbe-e053-44f7-ac04-aa48e563af46",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 4,
+            "canvasWidth": 32,
+            "canvasHeight": 40,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
+        },
+        {
             "id": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
             "name": "actor",
             "symbol": "sprite_actor",
@@ -611,7 +1610,7 @@
                 {
                     "id": "4d1efdcf-c6d6-4b25-ab89-008b990697ac",
                     "name": "",
-                    "animationType": "multi",
+                    "animationType": "fixed",
                     "flipLeft": true,
                     "animations": [
                         {
@@ -623,7 +1622,7 @@
                                         {
                                             "id": "d51763df-1353-4da7-9cf7-03fbada9edd2",
                                             "x": 0,
-                                            "y": 0,
+                                            "y": 8,
                                             "sliceX": 32,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -636,7 +1635,7 @@
                                         {
                                             "id": "c7f96290-0943-4855-a706-f198accdca3f",
                                             "x": 8,
-                                            "y": 0,
+                                            "y": 8,
                                             "sliceX": 40,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -771,12 +1770,12 @@
                 }
             ],
             "numTiles": 5,
-            "canvasWidth": 16,
-            "canvasHeight": 16,
-            "boundsX": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 40,
+            "boundsX": -8,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsWidth": 32,
+            "boundsHeight": 40,
             "animSpeed": 15
         },
         {
@@ -793,7 +1792,7 @@
                 {
                     "id": "ce938dce-afdb-4ffc-bd45-5685c6cf78c5",
                     "name": "",
-                    "animationType": "multi_movement",
+                    "animationType": "fixed",
                     "flipLeft": true,
                     "animations": [
                         {
@@ -805,7 +1804,7 @@
                                         {
                                             "id": "4575085b-128a-46e9-9a33-70c5ad5c551f",
                                             "x": 0,
-                                            "y": 0,
+                                            "y": 8,
                                             "sliceX": 64,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -818,7 +1817,7 @@
                                         {
                                             "id": "f69ec50d-9308-408f-b7dc-f70910e1f28c",
                                             "x": 8,
-                                            "y": 0,
+                                            "y": 8,
                                             "sliceX": 72,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -1127,12 +2126,12 @@
                 }
             ],
             "numTiles": 10,
-            "canvasWidth": 16,
-            "canvasHeight": 16,
-            "boundsX": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 40,
+            "boundsX": -8,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 8,
+            "boundsWidth": 32,
+            "boundsHeight": 40,
             "animSpeed": 15
         },
         {
@@ -1161,7 +2160,7 @@
                                         {
                                             "id": "b29ef538-ab11-4f4a-a40d-8a47ed874aab",
                                             "x": 0,
-                                            "y": 0,
+                                            "y": 8,
                                             "sliceX": 0,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -1174,7 +2173,7 @@
                                         {
                                             "id": "2e22a4fc-0615-41b3-8fad-54371a5b590a",
                                             "x": 8,
-                                            "y": 0,
+                                            "y": 8,
                                             "sliceX": 8,
                                             "sliceY": 0,
                                             "flipX": false,
@@ -1255,12 +2254,12 @@
                 }
             ],
             "numTiles": 2,
-            "canvasWidth": 16,
-            "canvasHeight": 16,
-            "boundsX": 0,
+            "canvasWidth": 32,
+            "canvasHeight": 40,
+            "boundsX": -8,
             "boundsY": 0,
-            "boundsWidth": 16,
-            "boundsHeight": 16,
+            "boundsWidth": 32,
+            "boundsHeight": 40,
             "animSpeed": 15
         }
     ],
@@ -1530,11 +2529,6 @@
     ],
     "variables": [
         {
-            "id": "0",
-            "name": "Player Max HP",
-            "symbol": "var_player_max_hp"
-        },
-        {
             "id": "1",
             "name": "Player Current HP",
             "symbol": "var_player_current_hp"
@@ -1558,6 +2552,11 @@
             "id": "5",
             "name": "Player Current Score",
             "symbol": "var_player_current_score"
+        },
+        {
+            "id": "0",
+            "name": "Player Max HP",
+            "symbol": "var_player_max_hp"
         }
     ],
     "engineFieldValues": [
@@ -1567,7 +2566,7 @@
         }
     ],
     "settings": {
-        "startSceneId": "bcf43fbd-d77d-441f-a86c-d783318ffd70",
+        "startSceneId": "85e56345-a7f8-4e86-bafc-7cff7e7df8bb",
         "startX": 0,
         "startY": 0,
         "startMoveSpeed": 1,
@@ -1577,9 +2576,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1018,
-        "worldScrollY": 551.3333129882812,
-        "zoom": 267.05926376394564,
+        "worldScrollX": 2265.333251953125,
+        "worldScrollY": 1432.6666259765625,
+        "zoom": 400,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
